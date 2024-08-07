@@ -1,0 +1,6 @@
+framework module Pods_claude_macos {
+  umbrella header "Pods-claude-macos-umbrella.h"
+
+  export *
+  module * { export * }
+}

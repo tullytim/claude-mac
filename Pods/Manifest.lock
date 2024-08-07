@@ -1,0 +1,30 @@
+PODS:
+  - LDSwiftEventSource (3.1.1)
+  - Mixpanel-swift (4.2.7):
+    - Mixpanel-swift/Complete (= 4.2.7)
+  - Mixpanel-swift/Complete (4.2.7)
+  - SQLCipher (4.6.0):
+    - SQLCipher/standard (= 4.6.0)
+  - SQLCipher/common (4.6.0)
+  - SQLCipher/standard (4.6.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - LDSwiftEventSource (~> 3.1)
+  - Mixpanel-swift
+  - SQLCipher (~> 4.4)
+
+SPEC REPOS:
+  trunk:
+    - LDSwiftEventSource
+    - Mixpanel-swift
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  LDSwiftEventSource: 3f9ff84ca80677f9a4f8596757dcb50026e4a13c
+  Mixpanel-swift: 7f5b749dbda2708033d67ff3d7a91710468d4a38
+  SQLCipher: 30a8e81afa6128e600b17ffa77d0f92fa05ed208
+
+PODFILE CHECKSUM: dcffa880ada296f9912b7b2da6d7ccef3215403d
+
+COCOAPODS: 1.14.3
