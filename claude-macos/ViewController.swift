@@ -51,7 +51,6 @@ class ViewController: NSViewController, NSSearchFieldDelegate, EventHandler, NST
     var cur_div_id:String = "";
     var cur_recognition:SFSpeechRecognitionTask = SFSpeechRecognitionTask()
     var html:String = """
-
 <!DOCTYPE html><html lang=\"en\">
 <head>
     <style>
@@ -103,8 +102,6 @@ function inject(h, div_id){
     window.scrollTo(0, document.body.scrollHeight);
 }
 function renderMarkdown(html, cur_div_id){
-
-
  marked.setOptions({
    highlight: function(code, lang) {
      if (Prism.languages[lang]) {
@@ -114,8 +111,6 @@ function renderMarkdown(html, cur_div_id){
      }
    }
  });
-
-
 
     marked.use({html:true, gfm:true});
  
@@ -137,7 +132,6 @@ function renderMarkdown(html, cur_div_id){
         // Check the segue identifier if there are multiple segues
         if segue.identifier == "hamburger_select" {
             // Downcast the destination ViewController to your specific class
-            
         }
     }
     
@@ -199,7 +193,6 @@ function renderMarkdown(html, cur_div_id){
             let q = data[sectionIndex].items[itemIndex].query
             doQuery(q: q, shouldInsertHistory: false)
         }
-        
     }
     
     @objc func menuSelectDelete() {
@@ -239,6 +232,9 @@ function renderMarkdown(html, cur_div_id){
                 break;
             case Constants.MODEL_NAME_SONNET_35:
                 setSelectedItem(title: Constants.DISPLAY_MODEL_NAME_SONNET_35)
+                break;
+            case Constants.MODEL_NAME_SONNET_37:
+                setSelectedItem(title: Constants.DISPLAY_MODEL_NAME_SONNET_37)
                 break;
             case Constants.MODEL_NAME_SONNET:
                 setSelectedItem(title: "Claude 3 Sonnet")
@@ -438,6 +434,10 @@ function renderMarkdown(html, cur_div_id){
         else
         if selectedItem == Constants.DISPLAY_MODEL_NAME_SONNET_35 {
             cur.setValue(Constants.MODEL_NAME_SONNET_35, forKey: Constants.PREFERENCE_MODEL_SELECTED)
+        }
+        else
+        if selectedItem == Constants.DISPLAY_MODEL_NAME_SONNET_37 {
+            cur.setValue(Constants.MODEL_NAME_SONNET_37, forKey: Constants.PREFERENCE_MODEL_SELECTED)
         }
         setSelectedItem(title: selectedItem ?? "")
         

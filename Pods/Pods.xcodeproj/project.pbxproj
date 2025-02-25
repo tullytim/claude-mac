@@ -7,90 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0360A80AFE50878CE91EB232F7CEFE93 /* AutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD4CE56772E3E901AADF4EB1C29144 /* AutomaticProperties.swift */; };
-		037CE793D973B39F1D4242F0EC1E911D /* AutomaticEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC775D66836DF2B7045EEC1E81DBBF /* AutomaticEvents.swift */; };
-		0448118B8FC9E623E4FF959B8B5F89FE /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB39AB17A111C09177B83B36D6F289 /* Flush.swift */; };
-		04F682BF394CC4F9A800965FC2E72F2D /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E167A6222A7EA7F95852CC509D1250B1 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11F086C0E164D6422567A81E272339FC /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D215A39C5449BC38EB803F6D27680 /* Track.swift */; };
-		11F1407815197E52F774B2E9CECFEFDD /* SQLCipher-SQLCipher in Resources */ = {isa = PBXBuildFile; fileRef = 40B6E82B558CAB2B289F5BD57C9E2223 /* SQLCipher-SQLCipher */; };
-		1715C6FB13A5F47B1CA4DE67736A9B16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */; };
-		190AF7FADA67FBA0169EE46DE856359D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4E130D53AB4414128EF4B30A459F0808 /* PrivacyInfo.xcprivacy */; };
-		19167315FB97E02524FAAC4FF1B2FF04 /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842293F28568F86D5EAFC0163EC689C /* Mixpanel.swift */; };
-		240A865A12DFE5D9822357DF5A74D71C /* SessionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463D30281382587470634EEEC702D4D3 /* SessionMetadata.swift */; };
-		2BEA4599DE01D937BD5696C59E55967D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F870973B50C3BFDEBB98EC3E0D3E65E /* Foundation.framework */; };
-		2E1C2EE99AE7B334CA0B289B90124FA6 /* MPDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEEDD1EC90C47550F9C215D76940F43 /* MPDB.swift */; };
-		46E62738EBBC4802E3AD898CA9CC6241 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6033BE940C2655CF9B814DB24335A2EF /* Network.swift */; };
-		569335E81873D78CC111FE13A8127885 /* PrintLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A17AE8943C7A5E62877CC41547DD3 /* PrintLogging.swift */; };
-		6441BD2ED59A8E5C10689E32CDBF9AF5 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BCE801C568EB40D38E12C5A67A82ED /* Error.swift */; };
-		7008397FC7AD469E70CCC31231B28C78 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EADD408A6C084082470716E07FAC285 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D65C89D1BA578245C1CDB8CDE419F23 /* MixpanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DEA7872879EE9BE0E2FE801AF6C2E /* MixpanelType.swift */; };
-		7D67F0C0CBC28BD7096F764DA47EBC52 /* Mixpanel-swift-Mixpanel in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE96A6A3A3FC3CC51830131C0A4660 /* Mixpanel-swift-Mixpanel */; };
-		83E9B7EC11C450B3D99D2DE8BCDAAE03 /* LDSwiftEventSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DB926E94B30281F14AE09BA9A96940 /* LDSwiftEventSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D966BF35122EC1097E35211732BD857 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C094D9B9F62A925DB3507F8955F95 /* Group.swift */; };
-		9461E2BB271A5FB9538BBCE42205E492 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A4B1B9090A846C08BF3BFC44ED95 /* Types.swift */; };
-		A00E71254769F6A50F315834CDF25B7B /* FlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132EBB3258AF0BAD352A3EFEB2A9096 /* FlushRequest.swift */; };
-		A1B1EA6C4A13C74EB16B86F58D25B073 /* Pods-claude-macos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C58DE52A130FEB62D08D95B56829043 /* Pods-claude-macos-dummy.m */; };
-		AF4286415A9C468C9060EBB15A60EB8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D31381506F204D478A5B58FAEAB8D0 /* Constants.swift */; };
-		B20053DF6E840F46A74F12BC3E5E62CA /* EventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A84A0213CCA82BD7B60254D35531F5 /* EventParser.swift */; };
-		B40D89B87200829865394BE3CB514020 /* UTF8LineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF73842C1766164A6B0FE099A6ECF6 /* UTF8LineParser.swift */; };
-		B7FDD6BB008E4DB7A6FEDFAF8704C068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F870973B50C3BFDEBB98EC3E0D3E65E /* Foundation.framework */; };
-		C11874DADCB3678EC850B09D5AEEC4C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB771282ACFB74FB676D8B879565BDF /* Security.framework */; };
-		C144B5F53931875F20BA38D06CE3A7FE /* Mixpanel-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490EBD8D8602FA81FAB855F523E9A989 /* Mixpanel-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52EA848E73D3E72A3FBE3833D367BB5 /* MixpanelPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1C6879562AC2D55F9E3D011EA7243 /* MixpanelPersistence.swift */; };
-		C69027983C839692DD4D673D81FDB21D /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B05DFA2854A433300BD21E6CD49726 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
-		D31040E66D731260AA205E0C74899E84 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC3730A6302D94B5810617B47DE486D /* SQLCipher-dummy.m */; };
-		DB6F7941A6F7BD38F0685DC55D9E5FB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */; };
-		DB72D132754382B4AF00A1E24D2D0A1A /* FileLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826D858D2CA709A63C87D7DA0251E2A /* FileLogging.swift */; };
-		E02F2BDE5A628C533F8581D585241069 /* Pods-claude-macos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CBC00F97098269DB80C9B912CEC861 /* Pods-claude-macos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1FDDD20174E6940BC02D6F4A58850C1 /* ReadWriteLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A38FC050B1B6572D49EEB659DAC83 /* ReadWriteLock.swift */; };
-		E240F44A15AB3D9530B16CD3D092EE14 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FC7C0E4B0FBA5EFD4740F48975636 /* Logs.swift */; };
-		EAD718A33B09259685B4BEEDEF4F5A7A /* LDSwiftEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415FB995AC84DFDD9DAC8A7736EDC94 /* LDSwiftEventSource.swift */; };
-		EC5D6F3F6F17EE13EB086F96C9CB749E /* MixpanelInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545E1FD8B17EE7AD6E1F4A465FE9347 /* MixpanelInstance.swift */; };
-		F37A271EFA2486D200EE192B694BA0B3 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1424C59E381BF9C5EAA78B59F8982 /* People.swift */; };
-		F5004A7242F9E509DF6AE6E96AC5612D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */; };
-		F59D9D42E166697D4415FAFC715AE1FF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234CC36DF76E12EA18BA9A1E9AA27DB8 /* Logger.swift */; };
-		F70D6BB5C4E52457B8FB87073A3304DE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B0CE8E27D2CAEDC29CA6FC3803B67 /* PrivacyInfo.xcprivacy */; };
-		F786209361F4200BFC247F219E800463 /* Mixpanel-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA009B495CA1631E494F290A45096D2 /* Mixpanel-swift-dummy.m */; };
-		FCA9A1E8E2535B6641E5A7AB61F541C3 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C65F36DE60C46B4EA5483B8EE5659 /* JSONHandler.swift */; };
-		FF1E16EB11931440F56A231171550C4D /* LDSwiftEventSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0D6CEC319DFC99D6E84D459406D07 /* LDSwiftEventSource-dummy.m */; };
-		FF3C6AD80CCC0337A12E0A9D43102CF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */; };
+		021A15A91E1B6251B173FE062947BC86 /* MPDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEEDD1EC90C47550F9C215D76940F43 /* MPDB.swift */; };
+		0731BB7190834C5E25872791151551AB /* EventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A84A0213CCA82BD7B60254D35531F5 /* EventParser.swift */; };
+		0E73B93D2113C1632118D0BA1FCE77F7 /* SessionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463D30281382587470634EEEC702D4D3 /* SessionMetadata.swift */; };
+		0E9D45BE07CCF5F5CB8FFC525713E313 /* PrintLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A17AE8943C7A5E62877CC41547DD3 /* PrintLogging.swift */; };
+		0F2D77E46FE4C290CDC04771D4F0EBCB /* Pods-claude-macos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C58DE52A130FEB62D08D95B56829043 /* Pods-claude-macos-dummy.m */; };
+		14B51466842A44505387F2F65C6EFFF2 /* Pods-claude-macos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CBC00F97098269DB80C9B912CEC861 /* Pods-claude-macos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		165D137CAF11B7EC19DE4476C0B15FF7 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C65F36DE60C46B4EA5483B8EE5659 /* JSONHandler.swift */; };
+		179185728EDD5467E620F0BB8C8C1530 /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB39AB17A111C09177B83B36D6F289 /* Flush.swift */; };
+		186F05D34FE57EECB96629E282401EC2 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC3730A6302D94B5810617B47DE486D /* SQLCipher-dummy.m */; };
+		21DAC46A27CF186508237388E223E56F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */; };
+		2D2A81F9564BF44E2A307E60C704FA8F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BCE801C568EB40D38E12C5A67A82ED /* Error.swift */; };
+		30E25F3843B2EDEC5629DD1713512935 /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842293F28568F86D5EAFC0163EC689C /* Mixpanel.swift */; };
+		3BC6E8045C2116BDA7A913CE0B9368CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B391495BB6443D353957E58579443E3 /* Foundation.framework */; };
+		3E0BE2FCE58538999823685706983982 /* MixpanelInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545E1FD8B17EE7AD6E1F4A465FE9347 /* MixpanelInstance.swift */; };
+		46194294BC427E64921DC2B3ED130F11 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FC7C0E4B0FBA5EFD4740F48975636 /* Logs.swift */; };
+		474146FC8D63966156AD0AFF8A09DA42 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C094D9B9F62A925DB3507F8955F95 /* Group.swift */; };
+		48E1EE8ABBBB7704324B491C20636835 /* SQLCipher-SQLCipher in Resources */ = {isa = PBXBuildFile; fileRef = 40B6E82B558CAB2B289F5BD57C9E2223 /* SQLCipher-SQLCipher */; };
+		4AE20C079F8C39DD0BC3145B98D1D5B6 /* Mixpanel-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA009B495CA1631E494F290A45096D2 /* Mixpanel-swift-dummy.m */; };
+		4E09351C87939C64DDB53FF0695CB0D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */; };
+		509597D7D72B6AF6C8ADB436E5E0A79B /* Mixpanel-swift-Mixpanel in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE96A6A3A3FC3CC51830131C0A4660 /* Mixpanel-swift-Mixpanel */; };
+		53C7A4A12644315D517C809E711BF271 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B05DFA2854A433300BD21E6CD49726 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		67A347E05563087A9DE47F356A4DE5FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */; };
+		67E7109B9A5E34A77A4A92F305CDCA9F /* ReadWriteLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A38FC050B1B6572D49EEB659DAC83 /* ReadWriteLock.swift */; };
+		717EAA2E00157DE851254972CC701EA3 /* MixpanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DEA7872879EE9BE0E2FE801AF6C2E /* MixpanelType.swift */; };
+		719A9413789A0C0A84658AE541F4C5AC /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D215A39C5449BC38EB803F6D27680 /* Track.swift */; };
+		727B6BB6454205E7E85B770511AD0AFF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B0CE8E27D2CAEDC29CA6FC3803B67 /* PrivacyInfo.xcprivacy */; };
+		7281519C080CB05C7D56C69631245939 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234CC36DF76E12EA18BA9A1E9AA27DB8 /* Logger.swift */; };
+		7447DE590F2FE14A306FF94ACECB255E /* LDSwiftEventSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0D6CEC319DFC99D6E84D459406D07 /* LDSwiftEventSource-dummy.m */; };
+		790B10DF2EDFD66204EF76E9B5AF38FF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4E130D53AB4414128EF4B30A459F0808 /* PrivacyInfo.xcprivacy */; };
+		809BE721DA80CCAAD835020F9ECA59BF /* UTF8LineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF73842C1766164A6B0FE099A6ECF6 /* UTF8LineParser.swift */; };
+		8EEA262C86EC8FB4DBEED96A15D62E89 /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E167A6222A7EA7F95852CC509D1250B1 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9196209068EEB2F5693FACBDBA943171 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1424C59E381BF9C5EAA78B59F8982 /* People.swift */; };
+		9695C4B005311ABFE4A7D7CB23F56209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */; };
+		A1DDDD98882CFEE542691984026797BA /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A4B1B9090A846C08BF3BFC44ED95 /* Types.swift */; };
+		AD191C32FD8109A35EA59C93D3B59D29 /* Mixpanel-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490EBD8D8602FA81FAB855F523E9A989 /* Mixpanel-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF5A880E62B1439DD6765AD35C06990 /* FlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132EBB3258AF0BAD352A3EFEB2A9096 /* FlushRequest.swift */; };
+		B26D779E1010D0A98288EB57AD97E586 /* FileLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826D858D2CA709A63C87D7DA0251E2A /* FileLogging.swift */; };
+		BC2F286A95FCD47E8D3C209E9E492760 /* AutomaticEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC775D66836DF2B7045EEC1E81DBBF /* AutomaticEvents.swift */; };
+		BF3BEACB2CA43F48769DBE1303114A1A /* LDSwiftEventSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DB926E94B30281F14AE09BA9A96940 /* LDSwiftEventSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C44CEA924D25281863F5D2D3FED6711D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE68FEB7FE913343D838FF55FAC3EBE3 /* Security.framework */; };
+		CF17648D9C1E8F5DF5044154F3F8161C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B391495BB6443D353957E58579443E3 /* Foundation.framework */; };
+		D4873000D761E21E6302B61E770A649D /* AutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD4CE56772E3E901AADF4EB1C29144 /* AutomaticProperties.swift */; };
+		D5D3BF662CF5C6A0DA7592E9118DF3C7 /* LDSwiftEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415FB995AC84DFDD9DAC8A7736EDC94 /* LDSwiftEventSource.swift */; };
+		DE8ED44AE66AD1E62075564F4A2DD68A /* MixpanelPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1C6879562AC2D55F9E3D011EA7243 /* MixpanelPersistence.swift */; };
+		E915A3D8B73FF3F56948AD38D60AC732 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6033BE940C2655CF9B814DB24335A2EF /* Network.swift */; };
+		EB37185D95B0F92A49DDABF6E5BE138B /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EADD408A6C084082470716E07FAC285 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89DBAB9DD9F40649AB352579E57AE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D31381506F204D478A5B58FAEAB8D0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BF2057FD8335C5765B7C79C3ACDE384 /* PBXContainerItemProxy */ = {
+		4224AEF2A5AE26AD6676B9FDAF0A0737 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D4BD53F7C68DABF5D35F275F86990C9A;
 			remoteInfo = LDSwiftEventSource;
 		};
-		65EA513F3D4A27A8C20BCA660FFEA238 /* PBXContainerItemProxy */ = {
+		4931460F520BCC3908AD721047BE3A95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D21962D0DE148A440FADB55935BD4264;
-			remoteInfo = SQLCipher;
+			remoteGlobalIDString = 1C5C7432DA0927A0B2F35F14B776C239;
+			remoteInfo = "Mixpanel-swift-Mixpanel";
 		};
-		7DEA53265C8222C96F91DAE589D77116 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87FC595F8D2A5960F7C8C0F0CBCFBC8D;
-			remoteInfo = "SQLCipher-SQLCipher";
-		};
-		D9EBA2C67391659188B9BA16CBA085CB /* PBXContainerItemProxy */ = {
+		B0DDC8A8CA1A2239B79E3B1BEB85E958 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E1886A99D3887E7B636CFCD67E199412;
 			remoteInfo = "Mixpanel-swift";
 		};
-		EFCE41DED5F497859BE29539D5D763FE /* PBXContainerItemProxy */ = {
+		CC25FE69EC2220535EADAC2A6A76EDE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C5C7432DA0927A0B2F35F14B776C239;
-			remoteInfo = "Mixpanel-swift-Mixpanel";
+			remoteGlobalIDString = D21962D0DE148A440FADB55935BD4264;
+			remoteInfo = SQLCipher;
+		};
+		FFFF07B4D22527799BD9BA2BDCBAFBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FC595F8D2A5960F7C8C0F0CBCFBC8D;
+			remoteInfo = "SQLCipher-SQLCipher";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -117,7 +117,6 @@
 		4910B8773E23D7253611BC35FB2107D8 /* LDSwiftEventSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDSwiftEventSource-prefix.pch"; sourceTree = "<group>"; };
 		4E04A4B1B9090A846C08BF3BFC44ED95 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Source/Types.swift; sourceTree = "<group>"; };
 		4E130D53AB4414128EF4B30A459F0808 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/Mixpanel/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		4F870973B50C3BFDEBB98EC3E0D3E65E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		531909F6899EE491CB9610C1E97CE81F /* Pods-claude-macos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-claude-macos-frameworks.sh"; sourceTree = "<group>"; };
 		59AB39AB17A111C09177B83B36D6F289 /* Flush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flush.swift; path = Sources/Flush.swift; sourceTree = "<group>"; };
 		5CA009B495CA1631E494F290A45096D2 /* Mixpanel-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel-swift-dummy.m"; sourceTree = "<group>"; };
@@ -133,14 +132,15 @@
 		78881573788C27D338EC62A07490A2ED /* SQLCipher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.debug.xcconfig; sourceTree = "<group>"; };
 		7B2FC7C0E4B0FBA5EFD4740F48975636 /* Logs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logs.swift; path = Source/Logs.swift; sourceTree = "<group>"; };
 		7B607DB9DDE3E740B8051A5152690628 /* Pods-claude-macos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-claude-macos-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CB771282ACFB74FB676D8B879565BDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		87E76BAB9ED3E422637C9F5583981B3E /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
 		898A38FC050B1B6572D49EEB659DAC83 /* ReadWriteLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReadWriteLock.swift; path = Sources/ReadWriteLock.swift; sourceTree = "<group>"; };
 		8FFD39EAE246D80A34E444878F3E2EBB /* LDSwiftEventSource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDSwiftEventSource-Info.plist"; sourceTree = "<group>"; };
 		9132EBB3258AF0BAD352A3EFEB2A9096 /* FlushRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushRequest.swift; path = Sources/FlushRequest.swift; sourceTree = "<group>"; };
 		93B05DFA2854A433300BD21E6CD49726 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
+		95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		9826D858D2CA709A63C87D7DA0251E2A /* FileLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileLogging.swift; path = Sources/FileLogging.swift; sourceTree = "<group>"; };
 		988D215A39C5449BC38EB803F6D27680 /* Track.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Track.swift; path = Sources/Track.swift; sourceTree = "<group>"; };
+		9B391495BB6443D353957E58579443E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6B0CE8E27D2CAEDC29CA6FC3803B67 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "sqlcipher-resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		A2E17C5720C8E1B5933667DB4BC333B3 /* Pods-claude-macos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-claude-macos-Info.plist"; sourceTree = "<group>"; };
@@ -156,6 +156,7 @@
 		C7EEFCCBCAC1D47517BA18511746AEB4 /* LDSwiftEventSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDSwiftEventSource.release.xcconfig; sourceTree = "<group>"; };
 		C8BC775D66836DF2B7045EEC1E81DBBF /* AutomaticEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticEvents.swift; path = Sources/AutomaticEvents.swift; sourceTree = "<group>"; };
 		CD9964BB9F36BC4D8F39EAD9BC1CACF5 /* ResourceBundle-Mixpanel-Mixpanel-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Mixpanel-Mixpanel-swift-Info.plist"; sourceTree = "<group>"; };
+		CE68FEB7FE913343D838FF55FAC3EBE3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		D5B376FF46D659AF37570D6B85D66D56 /* Pods-claude-macos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-claude-macos-acknowledgements.plist"; sourceTree = "<group>"; };
 		D8A84A0213CCA82BD7B60254D35531F5 /* EventParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventParser.swift; path = Source/EventParser.swift; sourceTree = "<group>"; };
 		D90C65F36DE60C46B4EA5483B8EE5659 /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = Sources/JSONHandler.swift; sourceTree = "<group>"; };
@@ -166,56 +167,55 @@
 		F1D31381506F204D478A5B58FAEAB8D0 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Constants.swift; sourceTree = "<group>"; };
 		F415FB995AC84DFDD9DAC8A7736EDC94 /* LDSwiftEventSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LDSwiftEventSource.swift; path = Source/LDSwiftEventSource.swift; sourceTree = "<group>"; };
 		F88C753EF5763C5E397E0F9F651B9D3B /* Mixpanel-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mixpanel-swift-Info.plist"; sourceTree = "<group>"; };
-		FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11C4C451D4D2C23FA6047B3158F96AD4 /* Frameworks */ = {
+		1257C29998819192C7129C0BBD728D7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6F7941A6F7BD38F0685DC55D9E5FB9 /* Cocoa.framework in Frameworks */,
-				B7FDD6BB008E4DB7A6FEDFAF8704C068 /* Foundation.framework in Frameworks */,
-				C11874DADCB3678EC850B09D5AEEC4C1 /* Security.framework in Frameworks */,
+				67A347E05563087A9DE47F356A4DE5FE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A5C30D39B4E6FD33A487839F2499F5B /* Frameworks */ = {
+		1871A37CB1B9E637F0F297582DD4E4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9695C4B005311ABFE4A7D7CB23F56209 /* Cocoa.framework in Frameworks */,
+				CF17648D9C1E8F5DF5044154F3F8161C /* Foundation.framework in Frameworks */,
+				C44CEA924D25281863F5D2D3FED6711D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EDD27E26BC16FD40C508EFF60EFB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DAC46A27CF186508237388E223E56F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1511871D717717C2ABDD3732E9CF9A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC74FD51BE6B527A38587563C587E6A9 /* Frameworks */ = {
+		C65897B67FCAA76C7B41B5D3A18F99ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3C6AD80CCC0337A12E0A9D43102CF6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA10C196FFF5FDD5C5545E7FC36C4D5A /* Frameworks */ = {
+		D183C94C3BCF9860033DB7A585240DBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5004A7242F9E509DF6AE6E96AC5612D /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D21F28E287F4F896965BBBCEDA534025 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1715C6FB13A5F47B1CA4DE67736A9B16 /* Cocoa.framework in Frameworks */,
-				2BEA4599DE01D937BD5696C59E55967D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEAD0EC068C792ED4D24CF1336A67729 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4E09351C87939C64DDB53FF0695CB0D4 /* Cocoa.framework in Frameworks */,
+				3BC6E8045C2116BDA7A913CE0B9368CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +256,12 @@
 			path = "../Target Support Files/SQLCipher";
 			sourceTree = "<group>";
 		};
-		4A2866A2679B241C196912673915D085 /* OS X */ = {
+		306008A223BF219859E9F3636C707FDA /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				FE7E20BED29822D73AD2CC32C46AA39C /* Cocoa.framework */,
-				4F870973B50C3BFDEBB98EC3E0D3E65E /* Foundation.framework */,
-				7CB771282ACFB74FB676D8B879565BDF /* Security.framework */,
+				95EDE73637D6C3AEC8DCB33B9A873E07 /* Cocoa.framework */,
+				9B391495BB6443D353957E58579443E3 /* Foundation.framework */,
+				CE68FEB7FE913343D838FF55FAC3EBE3 /* Security.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
@@ -365,7 +365,7 @@
 		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A2866A2679B241C196912673915D085 /* OS X */,
+				306008A223BF219859E9F3636C707FDA /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -438,36 +438,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		341B2A5EE89FF54253788236E7EDBDD1 /* Headers */ = {
+		2BAC3910E06F6DAFA2D97ED4A2BEC3EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C144B5F53931875F20BA38D06CE3A7FE /* Mixpanel-swift-umbrella.h in Headers */,
+				BF3BEACB2CA43F48769DBE1303114A1A /* LDSwiftEventSource-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82AD0E0C2D72F93C98E512BA2A8918BB /* Headers */ = {
+		3282EDBEC428AD24A710B72B0BE47348 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F682BF394CC4F9A800965FC2E72F2D /* SQLCipher-umbrella.h in Headers */,
-				7008397FC7AD469E70CCC31231B28C78 /* sqlite3.h in Headers */,
+				14B51466842A44505387F2F65C6EFFF2 /* Pods-claude-macos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADED77D0EA66C62E86F1F589A50B9CB /* Headers */ = {
+		AB645446712E45E94114D517F15D5B5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02F2BDE5A628C533F8581D585241069 /* Pods-claude-macos-umbrella.h in Headers */,
+				AD191C32FD8109A35EA59C93D3B59D29 /* Mixpanel-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B571BA829FAEDD7C76D29DE0F53909 /* Headers */ = {
+		AC6E9582535DF3E7C4E9D15F7A5B1F92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E9B7EC11C450B3D99D2DE8BCDAAE03 /* LDSwiftEventSource-umbrella.h in Headers */,
+				8EEA262C86EC8FB4DBEED96A15D62E89 /* SQLCipher-umbrella.h in Headers */,
+				EB37185D95B0F92A49DDABF6E5BE138B /* sqlite3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,11 +476,11 @@
 /* Begin PBXNativeTarget section */
 		1C5C7432DA0927A0B2F35F14B776C239 /* Mixpanel-swift-Mixpanel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3647F30C400BC86679EB53735F41EB58 /* Build configuration list for PBXNativeTarget "Mixpanel-swift-Mixpanel" */;
+			buildConfigurationList = C38A0C7855170AFA034461B2832B9E13 /* Build configuration list for PBXNativeTarget "Mixpanel-swift-Mixpanel" */;
 			buildPhases = (
-				359D0F1FC5CAD0408C00764504C023DB /* Sources */,
-				3A5C30D39B4E6FD33A487839F2499F5B /* Frameworks */,
-				716518C59C587674A3810D6FDACF145D /* Resources */,
+				21B3603290463ED3721AD56DCF618E48 /* Sources */,
+				B1511871D717717C2ABDD3732E9CF9A9 /* Frameworks */,
+				9D47BE5632734CD826C36D15467E7984 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -493,11 +493,11 @@
 		};
 		87FC595F8D2A5960F7C8C0F0CBCFBC8D /* SQLCipher-SQLCipher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D027CB219476D21EBE13988E1A4538 /* Build configuration list for PBXNativeTarget "SQLCipher-SQLCipher" */;
+			buildConfigurationList = D43039DB866BE25C85D0F8F13ECE88D2 /* Build configuration list for PBXNativeTarget "SQLCipher-SQLCipher" */;
 			buildPhases = (
-				66E86944EA79D85F79F0172F6E95C2F0 /* Sources */,
-				FEAD0EC068C792ED4D24CF1336A67729 /* Frameworks */,
-				F0982245F5D13CD9F7EE11332DFB762D /* Resources */,
+				7A1BEA50498E43076834BAAC69AA286C /* Sources */,
+				C65897B67FCAA76C7B41B5D3A18F99ED /* Frameworks */,
+				57FFF48CAC21422582215BED6802BE63 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -510,19 +510,19 @@
 		};
 		B96081F3505817B1BA402475EAC6D258 /* Pods-claude-macos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C9199678315CA3946E9FC78F3E8BC87 /* Build configuration list for PBXNativeTarget "Pods-claude-macos" */;
+			buildConfigurationList = F604E84F37C06794E3933733278F7AC3 /* Build configuration list for PBXNativeTarget "Pods-claude-macos" */;
 			buildPhases = (
-				AADED77D0EA66C62E86F1F589A50B9CB /* Headers */,
-				F0B28CBC14410C6911DFF906C668E6E9 /* Sources */,
-				AC74FD51BE6B527A38587563C587E6A9 /* Frameworks */,
-				59E251C86811F292B17ACD17F0DF384B /* Resources */,
+				3282EDBEC428AD24A710B72B0BE47348 /* Headers */,
+				F5EE0D8D22605096BF1223E8E9DD88BB /* Sources */,
+				1257C29998819192C7129C0BBD728D7A /* Frameworks */,
+				A898639DCD674C09463F8DFDAAC20BAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6043F3CCACC9209F1A42A2EC736066CA /* PBXTargetDependency */,
-				A6616968F10476B954C79864D0061095 /* PBXTargetDependency */,
-				0E7E2B89CD8227AB8A98253D0F3B104D /* PBXTargetDependency */,
+				8860AE4A4379FB17F5F3C585052B61A4 /* PBXTargetDependency */,
+				1C509A3AF5A8EEE33C6457719F8ED536 /* PBXTargetDependency */,
+				4BD839B9C7B4075EE2F6C61B88DDB686 /* PBXTargetDependency */,
 			);
 			name = "Pods-claude-macos";
 			productName = Pods_claude_macos;
@@ -531,17 +531,17 @@
 		};
 		D21962D0DE148A440FADB55935BD4264 /* SQLCipher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 212AAFEE0DE8EF5B18D057DEB4D6BC0A /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildConfigurationList = 7BD6D173FB6A150008ABBA9F6240FB54 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
 			buildPhases = (
-				82AD0E0C2D72F93C98E512BA2A8918BB /* Headers */,
-				9162F371EC0A772E78A1B7A792DFAF22 /* Sources */,
-				11C4C451D4D2C23FA6047B3158F96AD4 /* Frameworks */,
-				82C0E207BA428262B8C413D6D2277B54 /* Resources */,
+				AC6E9582535DF3E7C4E9D15F7A5B1F92 /* Headers */,
+				F5A728CA1F72A0F1DB518AC038516B58 /* Sources */,
+				1871A37CB1B9E637F0F297582DD4E4BF /* Frameworks */,
+				B462729582995D3D78FCABF8544C839C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7CFEF3BE1CE16824A95498CAC3B7491E /* PBXTargetDependency */,
+				F1EC4F3D2BCB4AD3A65162FB2759BFC6 /* PBXTargetDependency */,
 			);
 			name = SQLCipher;
 			productName = SQLCipher;
@@ -550,12 +550,12 @@
 		};
 		D4BD53F7C68DABF5D35F275F86990C9A /* LDSwiftEventSource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38683FB8929E0EBCB55D221F72F41DCE /* Build configuration list for PBXNativeTarget "LDSwiftEventSource" */;
+			buildConfigurationList = 9760B4D6FDB74A22BA3242B8DA67676D /* Build configuration list for PBXNativeTarget "LDSwiftEventSource" */;
 			buildPhases = (
-				B7B571BA829FAEDD7C76D29DE0F53909 /* Headers */,
-				A58E848DD0B18F36757B977F9FF8A5FD /* Sources */,
-				CA10C196FFF5FDD5C5545E7FC36C4D5A /* Frameworks */,
-				2C6FEE4AD6D0F6194685C09DA5729832 /* Resources */,
+				2BAC3910E06F6DAFA2D97ED4A2BEC3EB /* Headers */,
+				B37494DC41EE92E972ABBAFCF80AC130 /* Sources */,
+				66EDD27E26BC16FD40C508EFF60EFB14 /* Frameworks */,
+				2B37F9706AF07D059829908475B3F3B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -568,17 +568,17 @@
 		};
 		E1886A99D3887E7B636CFCD67E199412 /* Mixpanel-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6D8EB2AD1E981DA2B241D108CE3D256 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */;
+			buildConfigurationList = 70EF5F3611BE990FAE5795DF7E676F36 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */;
 			buildPhases = (
-				341B2A5EE89FF54253788236E7EDBDD1 /* Headers */,
-				745793FF4FBA0E47CAE263FB325FCB8C /* Sources */,
-				D21F28E287F4F896965BBBCEDA534025 /* Frameworks */,
-				2CC0F389A487057A71646B1CF8D30F08 /* Resources */,
+				AB645446712E45E94114D517F15D5B5E /* Headers */,
+				3684D1D271E39DA600531931540DCFC2 /* Sources */,
+				D183C94C3BCF9860033DB7A585240DBA /* Frameworks */,
+				93A05C6060A331E9551C4A4847EE138F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A7D78507469F0FBC48311E903C5724B /* PBXTargetDependency */,
+				A6FF7C363AB922930987589A03762055 /* PBXTargetDependency */,
 			);
 			name = "Mixpanel-swift";
 			productName = Mixpanel;
@@ -591,8 +591,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -603,6 +603,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 5E88D78EF30CDD9BD227ED96373CAB77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -618,239 +620,185 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C6FEE4AD6D0F6194685C09DA5729832 /* Resources */ = {
+		2B37F9706AF07D059829908475B3F3B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CC0F389A487057A71646B1CF8D30F08 /* Resources */ = {
+		57FFF48CAC21422582215BED6802BE63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D67F0C0CBC28BD7096F764DA47EBC52 /* Mixpanel-swift-Mixpanel in Resources */,
+				727B6BB6454205E7E85B770511AD0AFF /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59E251C86811F292B17ACD17F0DF384B /* Resources */ = {
+		93A05C6060A331E9551C4A4847EE138F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509597D7D72B6AF6C8ADB436E5E0A79B /* Mixpanel-swift-Mixpanel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D47BE5632734CD826C36D15467E7984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B10DF2EDFD66204EF76E9B5AF38FF /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A898639DCD674C09463F8DFDAAC20BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		716518C59C587674A3810D6FDACF145D /* Resources */ = {
+		B462729582995D3D78FCABF8544C839C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190AF7FADA67FBA0169EE46DE856359D /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82C0E207BA428262B8C413D6D2277B54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F1407815197E52F774B2E9CECFEFDD /* SQLCipher-SQLCipher in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0982245F5D13CD9F7EE11332DFB762D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F70D6BB5C4E52457B8FB87073A3304DE /* PrivacyInfo.xcprivacy in Resources */,
+				48E1EE8ABBBB7704324B491C20636835 /* SQLCipher-SQLCipher in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		359D0F1FC5CAD0408C00764504C023DB /* Sources */ = {
+		21B3603290463ED3721AD56DCF618E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66E86944EA79D85F79F0172F6E95C2F0 /* Sources */ = {
+		3684D1D271E39DA600531931540DCFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F286A95FCD47E8D3C209E9E492760 /* AutomaticEvents.swift in Sources */,
+				D4873000D761E21E6302B61E770A649D /* AutomaticProperties.swift in Sources */,
+				F89DBAB9DD9F40649AB352579E57AE0C /* Constants.swift in Sources */,
+				2D2A81F9564BF44E2A307E60C704FA8F /* Error.swift in Sources */,
+				B26D779E1010D0A98288EB57AD97E586 /* FileLogging.swift in Sources */,
+				179185728EDD5467E620F0BB8C8C1530 /* Flush.swift in Sources */,
+				ADF5A880E62B1439DD6765AD35C06990 /* FlushRequest.swift in Sources */,
+				474146FC8D63966156AD0AFF8A09DA42 /* Group.swift in Sources */,
+				165D137CAF11B7EC19DE4476C0B15FF7 /* JSONHandler.swift in Sources */,
+				7281519C080CB05C7D56C69631245939 /* Logger.swift in Sources */,
+				30E25F3843B2EDEC5629DD1713512935 /* Mixpanel.swift in Sources */,
+				4AE20C079F8C39DD0BC3145B98D1D5B6 /* Mixpanel-swift-dummy.m in Sources */,
+				3E0BE2FCE58538999823685706983982 /* MixpanelInstance.swift in Sources */,
+				DE8ED44AE66AD1E62075564F4A2DD68A /* MixpanelPersistence.swift in Sources */,
+				717EAA2E00157DE851254972CC701EA3 /* MixpanelType.swift in Sources */,
+				021A15A91E1B6251B173FE062947BC86 /* MPDB.swift in Sources */,
+				E915A3D8B73FF3F56948AD38D60AC732 /* Network.swift in Sources */,
+				9196209068EEB2F5693FACBDBA943171 /* People.swift in Sources */,
+				0E9D45BE07CCF5F5CB8FFC525713E313 /* PrintLogging.swift in Sources */,
+				67E7109B9A5E34A77A4A92F305CDCA9F /* ReadWriteLock.swift in Sources */,
+				0E73B93D2113C1632118D0BA1FCE77F7 /* SessionMetadata.swift in Sources */,
+				719A9413789A0C0A84658AE541F4C5AC /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BEA50498E43076834BAAC69AA286C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		745793FF4FBA0E47CAE263FB325FCB8C /* Sources */ = {
+		B37494DC41EE92E972ABBAFCF80AC130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037CE793D973B39F1D4242F0EC1E911D /* AutomaticEvents.swift in Sources */,
-				0360A80AFE50878CE91EB232F7CEFE93 /* AutomaticProperties.swift in Sources */,
-				AF4286415A9C468C9060EBB15A60EB8C /* Constants.swift in Sources */,
-				6441BD2ED59A8E5C10689E32CDBF9AF5 /* Error.swift in Sources */,
-				DB72D132754382B4AF00A1E24D2D0A1A /* FileLogging.swift in Sources */,
-				0448118B8FC9E623E4FF959B8B5F89FE /* Flush.swift in Sources */,
-				A00E71254769F6A50F315834CDF25B7B /* FlushRequest.swift in Sources */,
-				8D966BF35122EC1097E35211732BD857 /* Group.swift in Sources */,
-				FCA9A1E8E2535B6641E5A7AB61F541C3 /* JSONHandler.swift in Sources */,
-				F59D9D42E166697D4415FAFC715AE1FF /* Logger.swift in Sources */,
-				19167315FB97E02524FAAC4FF1B2FF04 /* Mixpanel.swift in Sources */,
-				F786209361F4200BFC247F219E800463 /* Mixpanel-swift-dummy.m in Sources */,
-				EC5D6F3F6F17EE13EB086F96C9CB749E /* MixpanelInstance.swift in Sources */,
-				C52EA848E73D3E72A3FBE3833D367BB5 /* MixpanelPersistence.swift in Sources */,
-				7D65C89D1BA578245C1CDB8CDE419F23 /* MixpanelType.swift in Sources */,
-				2E1C2EE99AE7B334CA0B289B90124FA6 /* MPDB.swift in Sources */,
-				46E62738EBBC4802E3AD898CA9CC6241 /* Network.swift in Sources */,
-				F37A271EFA2486D200EE192B694BA0B3 /* People.swift in Sources */,
-				569335E81873D78CC111FE13A8127885 /* PrintLogging.swift in Sources */,
-				E1FDDD20174E6940BC02D6F4A58850C1 /* ReadWriteLock.swift in Sources */,
-				240A865A12DFE5D9822357DF5A74D71C /* SessionMetadata.swift in Sources */,
-				11F086C0E164D6422567A81E272339FC /* Track.swift in Sources */,
+				0731BB7190834C5E25872791151551AB /* EventParser.swift in Sources */,
+				D5D3BF662CF5C6A0DA7592E9118DF3C7 /* LDSwiftEventSource.swift in Sources */,
+				7447DE590F2FE14A306FF94ACECB255E /* LDSwiftEventSource-dummy.m in Sources */,
+				46194294BC427E64921DC2B3ED130F11 /* Logs.swift in Sources */,
+				A1DDDD98882CFEE542691984026797BA /* Types.swift in Sources */,
+				809BE721DA80CCAAD835020F9ECA59BF /* UTF8LineParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9162F371EC0A772E78A1B7A792DFAF22 /* Sources */ = {
+		F5A728CA1F72A0F1DB518AC038516B58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31040E66D731260AA205E0C74899E84 /* SQLCipher-dummy.m in Sources */,
-				C69027983C839692DD4D673D81FDB21D /* sqlite3.c in Sources */,
+				186F05D34FE57EECB96629E282401EC2 /* SQLCipher-dummy.m in Sources */,
+				53C7A4A12644315D517C809E711BF271 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A58E848DD0B18F36757B977F9FF8A5FD /* Sources */ = {
+		F5EE0D8D22605096BF1223E8E9DD88BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20053DF6E840F46A74F12BC3E5E62CA /* EventParser.swift in Sources */,
-				EAD718A33B09259685B4BEEDEF4F5A7A /* LDSwiftEventSource.swift in Sources */,
-				FF1E16EB11931440F56A231171550C4D /* LDSwiftEventSource-dummy.m in Sources */,
-				E240F44A15AB3D9530B16CD3D092EE14 /* Logs.swift in Sources */,
-				9461E2BB271A5FB9538BBCE42205E492 /* Types.swift in Sources */,
-				B40D89B87200829865394BE3CB514020 /* UTF8LineParser.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0B28CBC14410C6911DFF906C668E6E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1B1EA6C4A13C74EB16B86F58D25B073 /* Pods-claude-macos-dummy.m in Sources */,
+				0F2D77E46FE4C290CDC04771D4F0EBCB /* Pods-claude-macos-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E7E2B89CD8227AB8A98253D0F3B104D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLCipher;
-			target = D21962D0DE148A440FADB55935BD4264 /* SQLCipher */;
-			targetProxy = 65EA513F3D4A27A8C20BCA660FFEA238 /* PBXContainerItemProxy */;
-		};
-		6043F3CCACC9209F1A42A2EC736066CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LDSwiftEventSource;
-			target = D4BD53F7C68DABF5D35F275F86990C9A /* LDSwiftEventSource */;
-			targetProxy = 0BF2057FD8335C5765B7C79C3ACDE384 /* PBXContainerItemProxy */;
-		};
-		7CFEF3BE1CE16824A95498CAC3B7491E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SQLCipher-SQLCipher";
-			target = 87FC595F8D2A5960F7C8C0F0CBCFBC8D /* SQLCipher-SQLCipher */;
-			targetProxy = 7DEA53265C8222C96F91DAE589D77116 /* PBXContainerItemProxy */;
-		};
-		8A7D78507469F0FBC48311E903C5724B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mixpanel-swift-Mixpanel";
-			target = 1C5C7432DA0927A0B2F35F14B776C239 /* Mixpanel-swift-Mixpanel */;
-			targetProxy = EFCE41DED5F497859BE29539D5D763FE /* PBXContainerItemProxy */;
-		};
-		A6616968F10476B954C79864D0061095 /* PBXTargetDependency */ = {
+		1C509A3AF5A8EEE33C6457719F8ED536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mixpanel-swift";
 			target = E1886A99D3887E7B636CFCD67E199412 /* Mixpanel-swift */;
-			targetProxy = D9EBA2C67391659188B9BA16CBA085CB /* PBXContainerItemProxy */;
+			targetProxy = B0DDC8A8CA1A2239B79E3B1BEB85E958 /* PBXContainerItemProxy */;
+		};
+		4BD839B9C7B4075EE2F6C61B88DDB686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = D21962D0DE148A440FADB55935BD4264 /* SQLCipher */;
+			targetProxy = CC25FE69EC2220535EADAC2A6A76EDE3 /* PBXContainerItemProxy */;
+		};
+		8860AE4A4379FB17F5F3C585052B61A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDSwiftEventSource;
+			target = D4BD53F7C68DABF5D35F275F86990C9A /* LDSwiftEventSource */;
+			targetProxy = 4224AEF2A5AE26AD6676B9FDAF0A0737 /* PBXContainerItemProxy */;
+		};
+		A6FF7C363AB922930987589A03762055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mixpanel-swift-Mixpanel";
+			target = 1C5C7432DA0927A0B2F35F14B776C239 /* Mixpanel-swift-Mixpanel */;
+			targetProxy = 4931460F520BCC3908AD721047BE3A95 /* PBXContainerItemProxy */;
+		};
+		F1EC4F3D2BCB4AD3A65162FB2759BFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLCipher-SQLCipher";
+			target = 87FC595F8D2A5960F7C8C0F0CBCFBC8D /* SQLCipher-SQLCipher */;
+			targetProxy = FFFF07B4D22527799BD9BA2BDCBAFBC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		104F7F35CDEDBB6157D87D122D2AAD9C /* Release */ = {
+		052ADAB2001962EF484E545ACD76B29E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7EEFCCBCAC1D47517BA18511746AEB4 /* LDSwiftEventSource.release.xcconfig */;
+			baseConfigurationReference = B1D3230DB859286AAB6788F694DEDC77 /* Mixpanel-swift.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGNING_ALLOWED = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mixpanel-swift";
+				IBSC_MODULE = Mixpanel;
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/ResourceBundle-Mixpanel-Mixpanel-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource.modulemap";
-				PRODUCT_MODULE_NAME = LDSwiftEventSource;
-				PRODUCT_NAME = LDSwiftEventSource;
+				PRODUCT_NAME = Mixpanel;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.7;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		1A721BFAB9C1B0ADF3F60EEAB1D55507 /* Debug */ = {
+		06582B55B86A577710F80B0049960E73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78881573788C27D338EC62A07490A2ED /* SQLCipher.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
-				PRODUCT_MODULE_NAME = SQLCipher;
-				PRODUCT_NAME = SQLCipher;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2DF283B3D280A88E6E6C7F6C76F29AA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78881573788C27D338EC62A07490A2ED /* SQLCipher.debug.xcconfig */;
+			baseConfigurationReference = 093EEE1B4AEB27AD0B7A66B045E787E4 /* SQLCipher.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -864,7 +812,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		2FDE04FD40C1C48F804E161EC2C09DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -928,27 +876,48 @@
 			};
 			name = Release;
 		};
-		357984C0749D6FED4107BE1214A29AE4 /* Release */ = {
+		333E6D9C95ABDEAB5F5A52DA7EE4A0DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 093EEE1B4AEB27AD0B7A66B045E787E4 /* SQLCipher.release.xcconfig */;
+			baseConfigurationReference = 67CCA4DE253CF97DD4EA114A984EFE18 /* Pods-claude-macos.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLCipher";
-				IBSC_MODULE = SQLCipher;
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/ResourceBundle-SQLCipher-SQLCipher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_NAME = SQLCipher;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-claude-macos/Pods-claude-macos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-claude-macos/Pods-claude-macos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3E79CE1EA9B4063F8642664B6BD77AD9 /* Release */ = {
+		3BAD2261D076A88B5DFD9E606140F93A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1D3230DB859286AAB6788F694DEDC77 /* Mixpanel-swift.release.xcconfig */;
+			baseConfigurationReference = B606B1E80B791FDF7331B5D52C81D0BD /* LDSwiftEventSource.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -961,8 +930,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -970,20 +942,62 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
-				PRODUCT_MODULE_NAME = Mixpanel;
-				PRODUCT_NAME = Mixpanel;
+				MODULEMAP_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource.modulemap";
+				PRODUCT_MODULE_NAME = LDSwiftEventSource;
+				PRODUCT_NAME = LDSwiftEventSource;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5699DE4E41CBD003D41559586BB28A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EEFCCBCAC1D47517BA18511746AEB4 /* LDSwiftEventSource.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource.modulemap";
+				PRODUCT_MODULE_NAME = LDSwiftEventSource;
+				PRODUCT_NAME = LDSwiftEventSource;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		5084A3D64609D6AE8D864B10D27A6E8F /* Debug */ = {
+		7F93DE36C9F7ECF43B8578ABB9E967C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0D8C0F12F40CDDF71AC06246655600E /* Mixpanel-swift.debug.xcconfig */;
+			baseConfigurationReference = 78881573788C27D338EC62A07490A2ED /* SQLCipher.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -996,8 +1010,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1005,32 +1022,55 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
-				PRODUCT_MODULE_NAME = Mixpanel;
-				PRODUCT_NAME = Mixpanel;
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		71DAC18A50F9D5ACEDD66C6F189FB2E3 /* Release */ = {
+		A0A4E282298CC4B17172DA97BB1BD555 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1D3230DB859286AAB6788F694DEDC77 /* Mixpanel-swift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mixpanel-swift";
-				IBSC_MODULE = Mixpanel;
-				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/ResourceBundle-Mixpanel-Mixpanel-swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				PRODUCT_MODULE_NAME = Mixpanel;
 				PRODUCT_NAME = Mixpanel;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1100,7 +1140,86 @@
 			};
 			name = Debug;
 		};
-		AFA86AD26E96198DA8C101E413E67FB9 /* Release */ = {
+		BC902059CDCECE64E325102950DE83A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D8C0F12F40CDDF71AC06246655600E /* Mixpanel-swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				PRODUCT_MODULE_NAME = Mixpanel;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4646B3016AA569A6F1DDBCD9AC9951D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093EEE1B4AEB27AD0B7A66B045E787E4 /* SQLCipher.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E11F71F0FE812DC146A0D8B29A028544 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EB037C943BD9D71AB719EA3FDC7AE00 /* Pods-claude-macos.release.xcconfig */;
 			buildSettings = {
@@ -1115,6 +1234,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-claude-macos/Pods-claude-macos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1137,43 +1258,7 @@
 			};
 			name = Release;
 		};
-		B244954A6D900BFCE33E71E28ECEFAC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B606B1E80B791FDF7331B5D52C81D0BD /* LDSwiftEventSource.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/LDSwiftEventSource/LDSwiftEventSource.modulemap";
-				PRODUCT_MODULE_NAME = LDSwiftEventSource;
-				PRODUCT_NAME = LDSwiftEventSource;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.7;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C59D429934AB9AA6BCB2A0FD9D7B6DBD /* Debug */ = {
+		F0D12EB87891DEDC3DE55445621195CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0D8C0F12F40CDDF71AC06246655600E /* Mixpanel-swift.debug.xcconfig */;
 			buildSettings = {
@@ -1191,109 +1276,27 @@
 			};
 			name = Debug;
 		};
-		E0FB6D732D3ABB6269309D5CE3270CAA /* Release */ = {
+		FA3CAA48C6D9E2C17AACEDE26C7D9BE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 093EEE1B4AEB27AD0B7A66B045E787E4 /* SQLCipher.release.xcconfig */;
+			baseConfigurationReference = 78881573788C27D338EC62A07490A2ED /* SQLCipher.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGNING_ALLOWED = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLCipher";
+				IBSC_MODULE = SQLCipher;
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/ResourceBundle-SQLCipher-SQLCipher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
-				PRODUCT_MODULE_NAME = SQLCipher;
 				PRODUCT_NAME = SQLCipher;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F940F97E51CED2C5C93D73B8EC668516 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67CCA4DE253CF97DD4EA114A984EFE18 /* Pods-claude-macos.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-claude-macos/Pods-claude-macos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MODULEMAP_FILE = "Target Support Files/Pods-claude-macos/Pods-claude-macos.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		212AAFEE0DE8EF5B18D057DEB4D6BC0A /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A721BFAB9C1B0ADF3F60EEAB1D55507 /* Debug */,
-				E0FB6D732D3ABB6269309D5CE3270CAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3647F30C400BC86679EB53735F41EB58 /* Build configuration list for PBXNativeTarget "Mixpanel-swift-Mixpanel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C59D429934AB9AA6BCB2A0FD9D7B6DBD /* Debug */,
-				71DAC18A50F9D5ACEDD66C6F189FB2E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38683FB8929E0EBCB55D221F72F41DCE /* Build configuration list for PBXNativeTarget "LDSwiftEventSource" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B244954A6D900BFCE33E71E28ECEFAC1 /* Debug */,
-				104F7F35CDEDBB6157D87D122D2AAD9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1303,29 +1306,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C9199678315CA3946E9FC78F3E8BC87 /* Build configuration list for PBXNativeTarget "Pods-claude-macos" */ = {
+		70EF5F3611BE990FAE5795DF7E676F36 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F940F97E51CED2C5C93D73B8EC668516 /* Debug */,
-				AFA86AD26E96198DA8C101E413E67FB9 /* Release */,
+				BC902059CDCECE64E325102950DE83A1 /* Debug */,
+				A0A4E282298CC4B17172DA97BB1BD555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D027CB219476D21EBE13988E1A4538 /* Build configuration list for PBXNativeTarget "SQLCipher-SQLCipher" */ = {
+		7BD6D173FB6A150008ABBA9F6240FB54 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DF283B3D280A88E6E6C7F6C76F29AA0 /* Debug */,
-				357984C0749D6FED4107BE1214A29AE4 /* Release */,
+				7F93DE36C9F7ECF43B8578ABB9E967C2 /* Debug */,
+				C4646B3016AA569A6F1DDBCD9AC9951D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6D8EB2AD1E981DA2B241D108CE3D256 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */ = {
+		9760B4D6FDB74A22BA3242B8DA67676D /* Build configuration list for PBXNativeTarget "LDSwiftEventSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5084A3D64609D6AE8D864B10D27A6E8F /* Debug */,
-				3E79CE1EA9B4063F8642664B6BD77AD9 /* Release */,
+				3BAD2261D076A88B5DFD9E606140F93A /* Debug */,
+				5699DE4E41CBD003D41559586BB28A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38A0C7855170AFA034461B2832B9E13 /* Build configuration list for PBXNativeTarget "Mixpanel-swift-Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D12EB87891DEDC3DE55445621195CD /* Debug */,
+				052ADAB2001962EF484E545ACD76B29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43039DB866BE25C85D0F8F13ECE88D2 /* Build configuration list for PBXNativeTarget "SQLCipher-SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3CAA48C6D9E2C17AACEDE26C7D9BE7 /* Debug */,
+				06582B55B86A577710F80B0049960E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F604E84F37C06794E3933733278F7AC3 /* Build configuration list for PBXNativeTarget "Pods-claude-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333E6D9C95ABDEAB5F5A52DA7EE4A0DB /* Debug */,
+				E11F71F0FE812DC146A0D8B29A028544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

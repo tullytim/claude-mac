@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22690"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="22690"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23504"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="23504"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -819,11 +820,12 @@
                                             </wkWebView>
                                             <popUpButton verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82h-nw-6qi">
                                                 <rect key="frame" x="159" y="368" width="78" height="25"/>
-                                                <popUpButtonCell key="cell" type="push" title="Claude 3 Haiku" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="uwY-Qa-hek" id="Neb-Kk-yaw">
+                                                <popUpButtonCell key="cell" type="push" title="Claude 3.7 Sonnet" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="vth-mR-sVX" id="Neb-Kk-yaw">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                    <font key="font" metaFont="menu"/>
+                                                    <font key="font" metaFont="message"/>
                                                     <menu key="menu" id="2so-43-tS4">
                                                         <items>
+                                                            <menuItem title="Claude 3.7 Sonnet" state="on" id="vth-mR-sVX"/>
                                                             <menuItem title="Claude 3.5 Sonnet" id="1mh-Ko-Orc"/>
                                                             <menuItem title="Claude 3 Opus" id="h8h-9S-gTR"/>
                                                             <menuItem title="Claude 3 Haiku" state="on" id="uwY-Qa-hek"/>
@@ -957,6 +959,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NSActionTemplate" width="19" height="19"/>
+        <image name="NSActionTemplate" width="20" height="20"/>
     </resources>
 </document>
